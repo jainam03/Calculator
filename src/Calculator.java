@@ -179,6 +179,5 @@ if(e.getSource() == negButton){
     temp*=-1;
     textfield.setText(String.valueOf(temp));
  }
-
     }
 }
