@@ -1,6 +1,6 @@
 //a GUI based simple calculator
 //FEEL FREE TO IMPROVE IT MORE IF FEEL LIKE DOING SO :-)
-//THERE WAS OR IS SOME PRBLEM WITH THE FONT TYPE WHEN I WAS CREATING IT, CHECK IT OUT AT YOUR END IF IT WORKS OR NOT
+//THERE WAS OR IS SOME PRBLEM WITH THE FONT TYPE WHEN I WAS CREATING IT, CHECK IT OUT AT YOUR END IF ITS WORKING OR NOT
 
 
 import javax.swing.*;
@@ -179,6 +179,5 @@ if(e.getSource() == negButton){
     temp*=-1;
     textfield.setText(String.valueOf(temp));
  }
-
     }
 }
