@@ -18,7 +18,7 @@ public class Calculator implements ActionListener {
 
     JPanel panel;
 
-    Font myFont = new Font("Comic Sans",Font.BOLD,30);
+    Font myFont = new Font("Trebuchet MS",Font.BOLD,25);
 
     double num1=0,num2=0,result=0;
     char operator;
