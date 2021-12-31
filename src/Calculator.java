@@ -1,4 +1,4 @@
-//under development
+//a GUI based simple calculator
 
 
 import javax.swing.*;
@@ -10,7 +10,7 @@ public class Calculator implements ActionListener {
     JFrame frame;
     JTextField textfield;
     JButton[] numberButtons = new JButton[10]; 
-    JButton[] functionButtons = new JButton[8];
+    JButton[] functionButtons = new JButton[9];
     JButton addButton,subButton,mulButton,divButton;
     JButton decButton, equButton, delButton, clrButton, negButton;
 
@@ -100,7 +100,6 @@ public class Calculator implements ActionListener {
         frame.add(clrButton);
         frame.add(textfield);
         frame.setVisible(true);
-
     }
 
     public static void main(String[] args) {
@@ -173,5 +172,11 @@ if(e.getSource() == delButton){
        textfield.setText(textfield.getText()+string.charAt(i));
    }
 }
+if(e.getSource() == negButton){
+    double temp = Double.parseDouble(textfield.getText());
+    temp*=-1;
+    textfield.setText(String.valueOf(temp));
+ }
+
     }
 }
