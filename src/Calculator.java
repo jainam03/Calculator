@@ -2,7 +2,6 @@
 //FEEL FREE TO IMPROVE IT MORE IF FEEL LIKE DOING SO :-)
 
 
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
