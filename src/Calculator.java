@@ -1,5 +1,5 @@
 //a GUI based simple calculator
-//FEEL FREE TO IMPROVE IT MORE IF FEEL LIKE DOING SO :-)
+//ANY IMPROVEMENTS ARE MOST WELCOMED
 
 
 import javax.swing.*;
