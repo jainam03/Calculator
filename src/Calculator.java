@@ -1,7 +1,7 @@
 //a GUI based simple calculator
 //ANY IMPROVEMENTS ARE MOST WELCOMED
 
-
+//and yeah i learned this from BroCode YouTube channel, so thanks to Bro.
 
 import javax.swing.*;
 import java.awt.*;
